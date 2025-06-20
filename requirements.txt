@@ -1,0 +1,9 @@
+python==3.12.7
+bokeh==3.7.2
+gensim==4.3.3
+matplotlib==3.10.0
+nltk==3.9.1
+numpy==1.26.4
+scikit-learn==1.6.1
+tensorflow==2.18.0
+tqdm==4.67.1
