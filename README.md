@@ -16,7 +16,7 @@ This repository provides a framework for cyberbullying detection and data augmen
     > SBERT and GloVe performed best in capturing class separation.
 - For data augmentation, we used LaTextGAN (Donahue & Rumshisky, 2019) with pretrained GloVe embeddings to generate tweets for racism and sexism (the minority classes).
   > We trained two separate LaTextGANs, one per class.
-- We adapted and modified the implementation of LaTextGAN published by Gerrit Bartels and Jacob Dudek designed to generate Trump-like tweets. Available here : https://github.com/GerritBartels/LaTextGAN
+- We adapted and modified the implementation of LaTextGAN published by Gerrit Bartels and Jacob Dudek designed to generate Trump-like tweets. Their Github is available here : https://github.com/GerritBartels/LaTextGAN (it was very useful in LaTextGAN_Modules and GAN_notebook !)
 
 - Finally, we compared three augmentation strategies (GAN, SMOTE, Random Oversampling) on three classifiers:
   - Decision Tree (DT)
